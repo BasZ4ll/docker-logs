@@ -50,5 +50,8 @@ This project demonstrates how to set up a centralized logging system using Docke
 
 * สร้างไฟล์ `docker-compose.yml` และ `loki-config.yml` และ `promtail-config.yml` ในโฟลเดอร์เดียวกัน
 * สร้างโฟลเดอร์ `logs` ในโฟลเดอร์เดียวกัน
+* สร้างโฟลเดอร์ `loki-data` ในโฟลเดอร์เดียวกัน
 * service ที่ต้องการให้ log ไปที่ Loki ในโฟลเดอร์เดียวกัน
 
+## Images
+![images](image.png)
