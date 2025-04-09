@@ -30,11 +30,17 @@ This project demonstrates how to set up a centralized logging system using Docke
         *   Username: `admin`
         *   Password: `admin`
     *   Change the password when prompted.
+
+    ![images](grafana.png)
+
 5.  **Add Loki as a Data Source in Grafana:**
     *   Go to `Configuration` > `Data Sources` > `Add data source`.
     *   Select `Loki`.
     *   Set the URL to `http://loki:3100`.
     *   Click `Save & Test`.
+
+    ![images](loki.png)
+
 6.  **Explore Logs:**
     *   Go to `Explore` in Grafana.
     *   Select `Loki` as the data source.
@@ -42,6 +48,10 @@ This project demonstrates how to set up a centralized logging system using Docke
 7.  **View Logs:**
     *   Open your browser and go to `http://localhost:3100`.
     *   You can view logs directly from the Loki web interface.
+
+    ![images](image.png)
+
+
 8.  **Stop the Stack:**
     ```bash
     docker-compose down
@@ -53,5 +63,4 @@ This project demonstrates how to set up a centralized logging system using Docke
 * สร้างโฟลเดอร์ `loki-data` ในโฟลเดอร์เดียวกัน
 * service ที่ต้องการให้ log ไปที่ Loki ในโฟลเดอร์เดียวกัน
 
-## Images
-![images](image.png)
+    ![images](image1.png)
