@@ -23,8 +23,9 @@ This project demonstrates how to set up a centralized logging system using Docke
 3.  **Running the Stack:**
     ```bash
     docker-compose up -d
+    ```
 
-4. ** Access Grafana:**
+4. **Access Grafana:**
     *   Open your browser and go to `http://localhost:3000`
     *   Default credentials:
         *   Username: `admin`
